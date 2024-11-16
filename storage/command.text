@@ -1,0 +1,22 @@
+
+php artisan migrate:rollback
+
+php artisan storage:link
+
+php artisan db:wipe
+
+php artisan migrate --seed
+
+php artisan passport:install
+
+php artisan passport:client --password
+
+php artisan app:faker-data
+
+php artisan queue:work
+
+php artisan queue:listen
+
+php artisan websockets:serve
+
+php artisan telescope:prune --hours=48
